@@ -8,6 +8,7 @@
 .toDo{
     background: #B6BFE8;
     padding: 60px 0px;
+    height: 100vh;
 }
 .main{
     background-image: url("../image/image1.jpg");
