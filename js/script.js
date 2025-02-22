@@ -130,6 +130,11 @@ function type(){
 
 
 search.oninput=function(){
+   if(search.value.length==0){
+    allPost.innerHTML="" 
+    display()
+
+   }else{
     allPost.innerHTML="" 
     arr.map(item=>{
         let textAdd=""
@@ -170,6 +175,7 @@ search.oninput=function(){
           })
         }
     })
+   }
 }
 
 
